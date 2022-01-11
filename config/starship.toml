@@ -1,0 +1,92 @@
+#
+# General config
+#
+
+add_newline = true
+scan_timeout = 10
+
+[character]
+success_symbol = "[>](bold green)"
+error_symbol   = "[x](bold red)"
+vicmd_symbol   = "[<](bold green)"
+
+[username]
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+format =  "[$hostname](bold red) | "
+
+[directory]
+truncation_length = 10
+truncate_to_repo = false
+
+[cmd_duration]
+min_time = 1_000
+disabled = false
+
+[package]
+symbol = "pkg "
+format = '\[[$symbol$version]($style)\] '
+
+[sudo]
+symbol = "sudo "
+format = 'as [$symbol$version]($style) '
+disabled = false
+
+#
+# Technologies config
+#
+
+[cmake]
+symbol = "cmake "
+format = '\[[$symbol($version)]($style)\] '
+
+[conda]
+symbol = "conda "
+format = '\[[$symbol$environment]($style)\] '
+
+[docker_context]
+symbol = "docker "
+format = '\[[$symbol$context]($style)\] '
+
+[nix_shell]
+symbol = "nix "
+format = '\[[$symbol$state( \($name\))]($style)\] '
+
+[dotnet]
+symbol = ".NET "
+format = '\[[$symbol($version)(🎯 $tfm)]($style)\] '
+
+[elixir]
+symbol = "exs "
+format = '\[[$symbol($version \(OTP $otp_version\))]($style)\] '
+
+[elm]
+symbol = "elm "
+format = '\[[$symbol($version)]($style)\] '
+
+[golang]
+symbol = "go "
+format = '\[[$symbol($version)]($style)\] '
+
+[julia]
+symbol = "jl "
+format = '\[[$symbol($version)]($style)\] '
+
+[kotlin]
+symbol = "kt "
+format = '\[[$symbol($version)]($style)\] '
+
+[nodejs]
+symbol = "nodejs "
+format = '\[[$symbol($version)]($style)\] '
+
+[python]
+symbol = "py "
+format = '\[[${symbol}${pyenv_prefix}(${version})(\($virtualenv\))]($style)\] '
+
+[rust]
+symbol = "rs "
+format = '\[[$symbol($version)]($style)\] '

@@ -1,0 +1,18 @@
+#
+# Welcome message
+#
+
+skip_welcome_message = true
+startup = ["neofetch", "fortune"]
+
+#
+# Starting starship
+#
+
+prompt = "starship prompt"
+
+#
+# Setting up layout
+#
+
+table_mode = "heavy"
