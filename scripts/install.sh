@@ -5,7 +5,9 @@ warn() {
 }
 
 install_deps () {
-    sudo apt-get update && sudo apt-get install neofetch
+    sudo apt-get update && sudo apt-get install neofetch fortune-mod fish
+
+    cargo install starship --locked
 }
 
 copy_configs () {
