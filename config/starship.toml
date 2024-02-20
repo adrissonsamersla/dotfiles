@@ -91,12 +91,6 @@ symbol = "exs "
 [elm]
 symbol = "elm "
 
-[fennel]
-symbol = "fnl "
-
-[fossil_branch]
-symbol = "fossil "
-
 [gcloud]
 symbol = "gcp "
 
@@ -105,9 +99,6 @@ symbol = "git "
 
 [golang]
 symbol = "go "
-
-[gradle]
-symbol = "gradle "
 
 [guix_shell]
 symbol = "guix "
@@ -149,12 +140,10 @@ symbol = "ml "
 symbol = "opa "
 
 [os.symbols]
-Alpaquita = "alq "
 Alpine = "alp "
 Amazon = "amz "
 Android = "andr "
 Arch = "rch "
-Artix = "atx "
 CentOS = "cent "
 Debian = "deb "
 DragonFly = "dfbsd "
@@ -167,7 +156,6 @@ Gentoo = "gent "
 HardenedBSD = "hbsd "
 Illumos = "lum "
 Linux = "lnx "
-Mabox = "mbox "
 Macos = "mac "
 Manjaro = "mjo "
 Mariner = "mrn "
@@ -176,8 +164,6 @@ Mint = "mint "
 NetBSD = "nbsd "
 NixOS = "nix "
 OpenBSD = "obsd "
-OpenCloudOS = "ocos "
-openEuler = "oeul "
 openSUSE = "osuse "
 OracleLinux = "orac "
 Pop = "pop "
@@ -196,9 +182,6 @@ symbol = "pl "
 
 [php]
 symbol = "php "
-
-[pijul_channel]
-symbol = "pijul "
 
 [pulumi]
 symbol = "pulumi "
@@ -224,17 +207,11 @@ symbol = "scala "
 [spack]
 symbol = "spack "
 
-[solidity]
-symbol = "solidity "
-
 [status]
 symbol = "[x](bold red) "
 
 [swift]
 symbol = "swift "
-
-[typst]
-symbol = "typst "
 
 [terraform]
 symbol = "terraform "
